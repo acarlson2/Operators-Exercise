@@ -9,6 +9,12 @@ namespace OperatorExercise
             int a = 17;
             int b = 4;
 
+            Console.WriteLine(Add(a,b));
+            Console.WriteLine(Subtract(a,b));
+            Console.WriteLine(Multiply(a,b));
+            Console.WriteLine(Divide(a,b));
+            Console.WriteLine(Modulus(a,b));
+
             Console.WriteLine($"{a}/{b} is {Divide(a,b)} remainder {Modulus(a,b)}");
 
             Console.WriteLine("What is the radius of your circle?");
